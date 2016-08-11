@@ -18,8 +18,9 @@ $(document).ready(function(){
 // 1 - Hide when clicked
 
     $(".hideMe").click(function(){
-      $(".hideMe").hide();
+      $(this).hide();
     });
+
 
 // 2 - change color of third li element when button is clicked
 
@@ -30,7 +31,7 @@ $(document).ready(function(){
 // 3 - when 4th item is clicked, add another beneath it
 
   $("ul li:eq(3)").click(function(){
-    $("ul li:eq(3)").append("<li>New item!</li>");
+    $(this).append("<li>New item!</li>");
   });
 
 // 4 - remove second li when clicked
