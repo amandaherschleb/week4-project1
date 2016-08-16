@@ -67,7 +67,7 @@ $(document).ready(function(){
 
   $('#dontClick').click(function(){
     alert('you clicked the button...');
-  })
+  });
 
 // ADVANCED TRACK
 // 9 - when clicked change page background to match the swatch
