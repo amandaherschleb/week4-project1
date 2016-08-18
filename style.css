@@ -52,6 +52,7 @@ body {
   border-radius: 50%;
   float: left;
   margin-right: 20px;
+  border: solid;
 }
 .swatches:after {
   content: "";
@@ -72,6 +73,8 @@ body {
   background-size: 100%;
   color: #fff;
 }
+
+
 hr {
  margin: 50px 0;
 }

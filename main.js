@@ -72,19 +72,23 @@ $(document).ready(function(){
 // ADVANCED TRACK
 // 9 - when clicked change page background to match the swatch
 
-  $('.black').click(function(){
+
+  $('#black').click(function(){
+    $('body').removeClass();
     $('body').addClass('black');
   });
 
-  $('.wood').click(function(){
+  $('#wood').click(function(){
+    $('body').removeClass();
     $('body').addClass('wood');
   });
 
-  $('.chaos').click(function(){
+  $('#chaos').click(function(){
+    $('body').removeClass();
     $('body').addClass('chaos');
   });
 
-  $('.restore').click(function(){
+  $('#restore').click(function(){
     $('body').removeClass();
   });
 
